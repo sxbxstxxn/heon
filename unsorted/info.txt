@@ -1,0 +1,23 @@
+gold 			#cda434
+
+amber 			#893101
+
+bronze spice	#c65102
+autumnleaf		#e47429
+
+carbon black	#222222
+charcoal		#505050
+alabaster grey	#eaeaea
+
+white			#ffffff
+black			#000000
+
+
+
+https://www.w3schools.com/w3css/tryw3css_templates_interior_design.htm#designers
+
+https://www.w3schools.com/w3css/tryw3css_templates_start_page.htm
+
+
+https://html5up.net/prologue
+
