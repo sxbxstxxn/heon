@@ -21,3 +21,21 @@ https://www.w3schools.com/w3css/tryw3css_templates_start_page.htm
 
 https://html5up.net/prologue
 
+https://www.w3schools.com/W3CSS/tryw3css_templates_analytics.htm#
+
+heon-light-grey
+
+heon-animate-left
+
+
+green
+78C602
+
+blue
+0278C6
+
+
+
+
+red
+C60216

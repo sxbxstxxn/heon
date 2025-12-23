@@ -21,7 +21,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
 <!-- Top container -->
 <div class="heon-bar heon-top heon-dark-grey heon-large" style="z-index:4">
-  <button class="heon-bar-item heon-button heon-hide-large heon-hover-none heon-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</button>
+  <button class="heon-bar-item heon-button heon-hide-large heon-hover-none heon-hover-text-light-grey" onclick="heon_open();"><i class="fa fa-bars"></i>  Menu</button>
   <span class="heon-bar-item heon-right"><img src="{% static 'images/heon_logo.png' %}" width="30px">Helden ONLINE</span>
 </div>
 
@@ -44,25 +44,25 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
 <script>
 // Get the Sidebar
-var mySidebar = document.getElementById("mySidebar");
+var heonMainSidebar = document.getElementById("heonMainSidebar");
 
 // Get the DIV with overlay effect
 var overlayBg = document.getElementById("myOverlay");
 
 // Toggle between showing and hiding the sidebar, and add overlay effect
-function w3_open() {
-  if (mySidebar.style.display === 'block') {
-    mySidebar.style.display = 'none';
+function heon_open() {
+  if (heonMainSidebar.style.display === 'block') {
+    heonMainSidebar.style.display = 'none';
     overlayBg.style.display = "none";
   } else {
-    mySidebar.style.display = 'block';
+    heonMainSidebar.style.display = 'block';
     overlayBg.style.display = "block";
   }
 }
 
 // Close the sidebar with the close button
 function w3_close() {
-  mySidebar.style.display = "none";
+  heonMainSidebar.style.display = "none";
   overlayBg.style.display = "none";
 }
 </script>
