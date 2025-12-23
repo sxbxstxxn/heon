@@ -1,4 +1,5 @@
 .venv
+unsorted/*
 unsorted
 .idea*
 heon/__pycache__/
